@@ -77,7 +77,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>Let's build something beautiful</p>
+              <p className='w-[85%] md:w-[90%] py-4'>Let`&s;` build something beautiful</p>
             </div>
           <div className='py-4 flex flex-col'>
             <ul>
@@ -98,7 +98,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='tracking-widest text-[#2F9EFD]'> Let's connect</p>
+              <p className='tracking-widest text-[#2F9EFD]'> Let`&s;` connect</p>
               {/* Problem here with Fa icons */}
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>

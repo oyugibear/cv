@@ -12,13 +12,13 @@ const Main = () => {
                     Change the world one line of code at a time.
                 </p>
                 <h1 className='py-4 text-gray-700'>
-                    Hi, I'm <span className='text-[#2F9EFD]'>Arthur</span>
+                    Hi, I am <span className='text-[#2F9EFD]'>Arthur</span>
                 </h1>
                 <h1 className='py-2 text-gray-700'>
                     A Front-End Web Developer
                 </h1>
                 <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-                    I'm a full-stack web developer with a passion for building beautiful, responsive websites. 
+                    I am a full-stack web developer with a passion for building beautiful, responsive websites. 
                     I started this journey as a UI/UX designer and gradully evolved into a front-end developer. 
                     The software skills i learned along the way have made me a valuable asset to any team, and 
                     taught me how to promote and uplift any business/ team that I work with.

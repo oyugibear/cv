@@ -5,6 +5,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useState } from 'react'
+import logoImg from '../public/logo.png'
 
 const Navbar = () => {
 
@@ -33,7 +34,7 @@ const Navbar = () => {
     <div className={shadow ? 'fixed w-full h-20 z-[100]' : 'fixed w-full h-20 shadow-sm z-[100] bg-[#f8fcff]'}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-              <Image src='/../public/assets/logo.png' alt='/' width='50' height='50'  className='cursor-pointer'/>
+              <Image src={logoImg} alt='/' width='50' height='50'  className='cursor-pointer'/>
             </Link>
 
             <div>
@@ -70,14 +71,14 @@ const Navbar = () => {
             >
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <Image src='/../public/assets/logo.png' alt='/' width='50' height='50'/>
+                <Image src={logoImg} alt='/' width='50' height='50'/>
               </Link>
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose />
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>Let`&s;` build something beautiful</p>
+              <p className='w-[85%] md:w-[90%] py-4'>Let us build something beautiful</p>
             </div>
           <div className='py-4 flex flex-col'>
             <ul>
@@ -98,7 +99,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='tracking-widest text-[#2F9EFD]'> Let`&s;` connect</p>
+              <p className='tracking-widest text-[#2F9EFD]'> Let us connect</p>
               {/* Problem here with Fa icons */}
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>

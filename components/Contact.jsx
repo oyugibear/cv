@@ -43,23 +43,26 @@ const Contact = () => {
                             <p>Front-End Developer</p>
                             <p className='py-4'> I am available for freelance and any part time or full time positions. Contact me at any time and let us talk</p>
                         </div>
-                    <div>
+                        <div>
                         <p className='uppercase pt-8'>Connect with me</p>
-                        <div className='flex items-center justify-between py-4'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedin />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <FaGithub />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <AiOutlineMail />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <BsFillPersonLinesFill />
+                            <div className='flex items-center justify-between py-4'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <a href="https://www.linkedin.com/in/arthur-oyugi-993b81206/">
+                                        <FaLinkedin />
+                                    </a>
+                                </div>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <a href="https://github.com/oyugibear">
+                                        <FaGithub />
+                                    </a>
+                                </div>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <a href="mailto:jroyugi@gmail.com">
+                                        <AiOutlineMail />
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 {/* Right */}

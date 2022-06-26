@@ -103,17 +103,23 @@ const Navbar = () => {
               {/* Problem here with Fa icons */}
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                  <FaLinkedin/>
+                  <a href="https://www.linkedin.com/in/arthur-oyugi-993b81206/">
+                    <FaLinkedin />
+                  </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                  <FaGithub/>
+                  <a href="https://github.com/oyugibear">
+                    <FaGithub />
+                  </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                  <AiOutlineMail/>
+                  <a href="mailto:jroyugi@gmail.com">
+                    <AiOutlineMail />
+                  </a>
                 </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                {/* <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                   <BsFillPersonLinesFill/>
-                </div>
+                </div> */}
 
               </div>
             </div>

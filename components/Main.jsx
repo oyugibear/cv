@@ -4,6 +4,15 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Main = () => {
+    function sendMail() {
+        var link = "mailto:me@example.com"
+                 + "?cc=myCCaddress@example.com"
+                 + "&subject=" + encodeURIComponent("This is my subject")
+                 + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+        ;
+        
+        window.location.href = link;
+    }
   return (
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
@@ -25,17 +34,23 @@ const Main = () => {
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] mx-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a href="https://www.linkedin.com/in/arthur-oyugi-993b81206/">
                         <FaLinkedin />
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a href="https://github.com/oyugibear">
                         <FaGithub />
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail />
+                        <a href="mailto:jroyugi@gmail.com">
+                            <AiOutlineMail />
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
